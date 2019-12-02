@@ -1,4 +1,4 @@
-<div>404 ошибка <a href="/">Глапвная</a></div><?php
+<div>404 ошибка <a href="/">Главная страница</a></div><?php
 /**
  * Created by PhpStorm.
  * User: Remteh
