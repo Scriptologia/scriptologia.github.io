@@ -1,0 +1,8 @@
+RewriteEngine On
+#RewriteRule ^(.*)$ /$1
+#RewriteCond %(REQUEST_FILENANE) !-f
+#RewriteCond %(REQUEST_FILENANE) !-d
+
+#RewriteRule ^(.*)$  index.php?$1 [L]
+RewriteRule ^([A-Za-z0-9]+)/([A-Za-z0-9]+)(.*)?$  index.php?site\=$1&man\=$2 [L]
+ErrorDocument 404 /404.php
